@@ -1,15 +1,17 @@
 //该文件包括28页19、20、21题的代码实现
 //主要对递归函数和非递归函数的实现
-//发现在有数学公式的问题上使用递归函数比较容易
+//总结发现在有数学公式的问题上使用递归函数比较容易
 //而编写非递归函数则需要观察并分析计算规律进行解决
 #include<iostream>
 #include<string>
 #include<exception>
 using namespace std;
 
-//非递归程序计算n!,从n到2,p28页19题
+//非递归程序计算n!
+//排除0、1和负数后从n到2计算,p28页19题
 int non_recursive_factorial_one(int n);
-//非递归程序计算n!,从2到n,p28页19题
+//非递归程序计算n!
+//排除0、1和负数后从2到n计算,p28页19题
 int non_recursive_factorial_two(int n);
 //递归函数计算斐波那契数Fn,p28页20题
 int recursive_fibonacci(int n);
