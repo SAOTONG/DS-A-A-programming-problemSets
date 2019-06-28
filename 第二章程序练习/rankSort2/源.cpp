@@ -12,7 +12,7 @@ template<class T>
 void rearrange(T a[], int n, int r[])
 {// Rearrange the elements of a into sorted order
  // using an additional array u.
-	vector<T> v(n);
+	vector<T> v(n);//使用vector代替数组
 
 					 // move to correct place in u
 	for (int i = 0; i < n; i++)
